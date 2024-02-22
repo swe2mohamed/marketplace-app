@@ -31,6 +31,10 @@ img{
     border-radius: 5px;
 }
 
+img:hover{
+    transform: scale(1.03);
+}
+
 button{
     background-color: #4caf50;
     color: #fff;
@@ -40,8 +44,21 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    background-color: rgb(82, 82, 200);
+}
+
+button:active{
+    opacity: 0.15s;
+}
+
 .email-field{
     margin: 10px;
+}
+
+.email-field:hover{
+    cursor:pointer;
+    color: #d10000;
 }
 
 .product_feature{
