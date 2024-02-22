@@ -1,0 +1,28 @@
+body{
+    font-family: Arial;
+    background-color: #d4d0d0;
+    color: #333;
+    margin: none;
+}
+
+header{
+    background-color: #d10000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+
+h2{
+    color: #4caf50;
+    text-align: center;
+}
