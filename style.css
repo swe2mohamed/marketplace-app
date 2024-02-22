@@ -10,19 +10,58 @@ header{
     color: #ffffff;
     text-align: center;
     padding: 20px;
+
 }
 section{
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: center;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
 }
 
-
-
 h2{
     color: #4caf50;
     text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.email-field{
+    margin: 10px;
+}
+
+.product_feature{
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+}
+
+
+.footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.footer:hover{
+    opacity: 80% ; 
 }
