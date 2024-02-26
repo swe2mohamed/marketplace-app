@@ -82,3 +82,10 @@ button:active{
 .footer:hover{
     opacity: 80% ; 
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
