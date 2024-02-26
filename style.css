@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-color: #d10000;
+    background-color: #3f3939;
     color: #ffffff;
     text-align: center;
     padding: 20px;
@@ -21,14 +21,16 @@ section{
 }
 
 h2{
-    color: #4caf50;
+    color: #73a475;
     text-align: center;
 }
 
 img{
     max-width: 100%;
-    height: auto;
+    max-height: 300px;
     border-radius: 5px;
+    overflow: hidden;
+    object-fit: contain;
 }
 
 img:hover{
@@ -36,7 +38,7 @@ img:hover{
 }
 
 button{
-    background-color: #4caf50;
+    background-color: #66a968;
     color: #fff;
     padding: 10px;
     border: none;
@@ -85,7 +87,6 @@ button:active{
 
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: repeat(4,1fr);
     grid-gap: 1em;
 }
-
